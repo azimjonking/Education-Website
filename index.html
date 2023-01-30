@@ -1,41 +1,88 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <!--=============== UNICONS ===============-->
-    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
-    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/solid.css">
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.0/css/solid.css"
+    />
 
     <!--=============== CSS ===============-->
-    <link rel="stylesheet" href="assets/Css/style.css">
+    <link rel="stylesheet" href="assets/Css/style.css" />
 
     <title>Responsive Educational Website</title>
-</head>
-<body>
+  </head>
+  <body>
     <!--=============== HEADER ===============-->
     <header class="header" id="header">
-        
+      <nav class="nav container">
+        <a href="index.html" class="nav_logo logo_light">
+          <img src="assets/Img/logo-light.png" alt="" />
+        </a>
+        <a href="index.html" class="nav_logo logo_dark">
+          <img src="assets/Img/logo-dark.png" alt="" />
+        </a>
+
+        <div class="nav_menu" id="nav-menu">
+          <ul class="nav_list">
+            <li class="nav_item">
+              <a href="index.html" class="nav_link active-link">Home</a>
+            </li>
+
+            <li class="nav_item">
+              <a href="courses.html" class="nav_link">Courses</a>
+            </li>
+
+            <li class="nav_item">
+              <a href="teachers.html" class="nav_link">Teachers</a>
+            </li>
+
+            <li class="nav_item">
+              <a href="contact.html" class="nav_link">Contact</a>
+            </li>
+          </ul>
+
+          <div class="nav_close" id="nav-close">
+            <i class="uil uil-times"></i>
+          </div>
+        </div>
+
+        <div class="nav_toggle" id="nav-toggle">
+          <i class="uil uil-apps"></i>
+        </div>
+
+        <a href="#" class="button button_header">Sign up</a>
+      </nav>
     </header>
 
     <!--=============== MAIN ===============-->
     <main class="main">
-        <!--=============== HOME ===============-->
-        <section class="home" id="home"></section>
+      <!--=============== HOME ===============-->
+      <section class="home" id="home">
+        <div class="home_container container">
+            
+        </div>
+      </section>
 
-        <!--=============== ABOUT ===============-->
-        <section class="about section" id="about"></section>
+      <!--=============== ABOUT ===============-->
+      <section class="about section" id="about"></section>
 
-        <!--=============== TEACHERS ===============-->
-        <section class="teachers section" id="teachers"></section>
+      <!--=============== TEACHERS ===============-->
+      <section class="teachers section" id="teachers"></section>
 
-        <!--=============== BRANDS ===============-->
-        <section class="brand section container"></section>
+      <!--=============== BRANDS ===============-->
+      <section class="brand section container"></section>
 
-        <!--=============== COURSES ===============-->
-        <section class="courses section" id="courses"></section>
+      <!--=============== COURSES ===============-->
+      <section class="courses section" id="courses"></section>
     </main>
 
     <!--=============== FOOTER ===============-->
@@ -43,5 +90,5 @@
 
     <!--=============== JS ===============-->
     <script src="assets/Js/main.js"></script>
-</body>
+  </body>
 </html>
