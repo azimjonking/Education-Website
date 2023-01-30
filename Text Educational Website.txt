@@ -1,0 +1,265 @@
+========== HOME ==========
+.home__subtitle
+Learn & Achieve
+
+.home__title
+Find the right Online tutor for you.
+
+.home__description
+Meet university, and cultural institutions, who will share their experience.
+
+.about__course-title | .about__course-subtitle
+6 Courses
+Programing Language
+
+4 Courses
+Idea Discussion
+
+8 Courses
+Web Development
+
+8 Courses
+System Aministration
+
+========== ABOUT ==========
+.about__title
+Achieve Your <br> Goals With Educal
+
+.about__description 
+Lost the plot bobby such a fibber bleeding bits and bobs don't get shirty with me bugger all mate chinwag super pukka william barney, horse play buggered.
+
+.about__details-description
+Upskill your organization.
+Access more then 100K online courses
+Learn the latest skills
+
+========== TEACHERS ==========
+.section__subtitle | .section__title
+Our Most <br> Popular Teachers
+You don't have to struggle alone, you've got our assistance and help.
+
+.teacher__title | .teacher__subtitle
+Lillian Walsh,
+CO Founder
+
+Kelly Franklin,
+Designer
+
+Hilary Ouse,
+Markater
+
+Lillian Walsh,
+CO Founder
+
+Shahnewaz,
+Developer
+
+Nicola Tesla,
+Engineer
+
+.teacher__social-link
+https://www.facebook.com/
+https://twitter.com/
+https://www.linkedin.com/
+
+========== Brand ==========
+.brand__title
+Trusted by 100 world's best companies
+
+========== COURSES ==========
+.section__subtitle | .section__title
+Online Courses <br> For Anyone, Anywhere
+You don't have to struggle alone, you've got our assistance and help.
+
+.course__tag | .course__lessons | .course__rating | .course__title | .course__teacher | .course__discount
+| .course__price
+Art & Design
+43 Lesson
+4.5(44)
+Become a product Manager learn the skills & job.
+Jim Séchen
+$32.00
+$68.00
+
+Mechanical
+72 Lesson
+4.5(44)
+Fundamentals of music theory Learn new
+Barry Tone
+$46.00
+$68.00
+
+Development
+43 Lesson
+4.4(40)
+Bases Matemáticas dios Álgebra Ecuacion
+Samuel Serif
+$46.00
+$68.00
+
+Development
+14 Lesson
+3.5(55)
+Strategy law and organization Foundation
+Elon Gated
+$62.00
+$97.00
+
+Marketing
+22 Lesson
+4.5(42)
+The business Intelligence analyst Course 2022
+Eleanor Fant
+$62.00
+$97.00
+
+Marketing
+22 Lesson
+4.5(42)
+The business Intelligence analyst Course 2022
+Brian Cumin
+$62.00
+$97.00
+
+Audio & Music
+18 Lesson
+4.5(37)
+Build your media and Public presence
+Pelican Steve
+$62.00
+$97.00
+
+UX Design
+13 Lesson
+4.5(72)
+Creative writing through Storytelling
+Shahnewaz Sakil
+$46.00
+$72.00
+
+UX Design
+25 Lesson
+4.5(35)
+Creative writing through Storytelling
+Hilary Ouse
+$46.00
+$72.00
+
+========== FOOTER ==========
+.footer__description
+Great lesson ideas and lesson <br> plans for ESL teachers!.
+
+.footer__social-link
+https://www.facebook.com/
+https://twitter.com/
+https://www.youtube.com/
+
+.footer__title | .footer__link
+About
+About Us
+Courses
+Instuctors
+
+Our Services
+Tutorials
+Library
+News & Blogs
+
+Our Company
+Career
+Contact Us
+Courses
+
+.footer__copy
+&#169; Crypticalcoder. All rights reserved
+
+========== CONTACT ==========
+.contact__title
+Get Intouch
+
+.contact__subtitle
+Have a question or just want to say hi? We'd love to hear from you.
+
+.contact__item-title | .contact__item-subtitle
+New York Office
+Maypole Crescent 70-80 Upper St
+Norwich NR2 1LT
+
+Email us directly
+support@educal.com
+info@educal.com
+
+Phone
++(426) 742 26 44
++(224) 762 442 32
+
+Follow Us
+
+========== DETAILS ==========
+.details__tag | .details__title
+Development
+The business Intelligence analyst Course 2022
+
+.details__subtitle | .details__data-title
+Teacher
+Elon Gated
+
+Last Update:
+April 24, 2022
+
+Review:
+4.5
+
+.course__description-title | .course__description-details
+Course Overview
+Only a quid me old mucker squiffy tomfoolery grub cheers ruddy cor blimey guvnor in my flat, up the duff Eaton car boot up the kyver pardon you A bit of how's your father David skive off sloshed, don't get shirty with me chip shop vagabond crikey bugger Queen's English chap. Matie boy nancy boy bite your arm off up the kyver old no biggie fantastic boot, David have it show off show off pick your nose and blow off lost the plot porkies bits and bobs only a quid bugger all mate, absolutely bladdered bamboozled it's your round don't get shirty with me down the pub well.
+
+.description__list-title | .description__list-data
+Upskill your organization.
+ Access more then 100K online courses
+Learn the latest skills
+
+.course__description-title | .instructor__title | .intructor__subtitle
+Other Instructors
+
+Eleanor Fant
+Instructor
+
+Lauren Stamps
+Teacher
+
+Jonquil Von
+Associate
+
+.course__video-info
+<span>Instructur :</span> Eleanor Fant
+<span>Lectures :</span> 14
+<span>Duration :</span> 6 weeks
+<span>Enrolled  :</span> 20 students
+<span>Language :</span> English
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
