@@ -729,6 +729,93 @@ img {
 
 /*=============== FOOTER ===============*/
 
+.footer {
+  margin-top: 8rem;
+  background-color: #0e1133;
+}
+
+.footer_container {
+  grid-template-columns: repeat(4, 1fr);
+  justify-items: center;
+  column-gap: 1rem;
+}
+
+.footer_logo {
+  margin-bottom: 1.25rem;
+}
+
+.footer_description {
+  color: hsl(var(--hue), 8%, 75%);
+  margin-bottom: 2.5rem;
+}
+
+.footer_social {
+  display: flex;
+  column-gap: .75rem;
+}
+
+.footer_social-link {
+  display: inline-block;
+  background-color: var(--container-color);
+  width: 44px;
+  height: 44px;
+  line-height: 42px;
+  text-align: center;
+  border-radius: .25rem;
+  font-size: 1rem;
+  color: #fff;
+  border: 2px solid;
+  transition: .4s;
+}
+
+.footer_social-link:nth-child(1) {
+  background-color: #285da1;
+  border-color: #285da1;
+}
+
+.footer_social-link:nth-child(2) {
+  background-color: #03a9f4;
+  border-color: #03a9f4;
+}
+
+.footer_social-link:nth-child(3) {
+  background-color: #d2173f;
+  border-color: #d2173f;
+}
+
+.footer_social-link:hover {
+  background-color: transparent;
+}
+
+.footer_title {
+  font-size: var(--h3-font-size);
+  color: #fff;
+  margin-bottom: 1rem;
+}
+
+.footer_links {
+  display: grid;
+  row-gap: .35rem;
+}
+
+.footer_link {
+  font-size: var(--normal-font-size);
+  color: hsl(var(--hue), 8%, 75%);
+  transition: .3s;
+}
+
+.footer_link:hover {
+  color: #fff;
+}
+
+.footer_copy {
+  display: block;
+  text-align: center;
+  font-size: var(--normal-font-size);
+  color: hsl(var(--hue), 8%, 75%);
+  margin-top: 6rem;
+}
+
 /*=============== SCROLL BAR ===============*/
 
 /*=============== BREAKPOINTS ===============*/
