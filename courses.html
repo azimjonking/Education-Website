@@ -1,399 +1,533 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <!--=============== UNICONS ===============-->
-    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
-    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/solid.css">
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.0/css/solid.css"
+    />
 
     <!--=============== CSS ===============-->
-    <link rel="stylesheet" href="assets/Css/style.css">
+    <link rel="stylesheet" href="assets/Css/style.css" />
 
     <title>Responsive Educational Website</title>
-</head>
-<body>
+  </head>
+  <body>
     <!--=============== HEADER ===============-->
     <header class="header" id="header">
-        <nav class="nav container">
-          <a href="index.html" class="nav_logo logo_light">
-            <img src="assets/Img/logo-light.png" alt="" />
-          </a>
-          <a href="index.html" class="nav_logo logo_dark">
-            <img src="assets/Img/logo-dark.png" alt="" />
-          </a>
-  
-          <div class="nav_menu" id="nav-menu">
-            <ul class="nav_list">
-              <li class="nav_item">
-                <a href="index.html" class="nav_link active-link">Home</a>
-              </li>
-  
-              <li class="nav_item">
-                <a href="courses.html" class="nav_link">Courses</a>
-              </li>
-  
-              <li class="nav_item">
-                <a href="teachers.html" class="nav_link">Teachers</a>
-              </li>
-  
-              <li class="nav_item">
-                <a href="contact.html" class="nav_link">Contact</a>
-              </li>
-            </ul>
-  
-            <div class="nav_close" id="nav-close">
-              <i class="uil uil-times"></i>
-            </div>
+      <nav class="nav container">
+        <a href="index.html" class="nav_logo logo_light">
+          <img src="assets/Img/logo-light.png" alt="" />
+        </a>
+        <a href="index.html" class="nav_logo logo_dark">
+          <img src="assets/Img/logo-dark.png" alt="" />
+        </a>
+
+        <div class="nav_menu" id="nav-menu">
+          <ul class="nav_list">
+            <li class="nav_item">
+              <a href="index.html" class="nav_link">Home</a>
+            </li>
+
+            <li class="nav_item">
+              <a href="courses.html" class="nav_link active-link">Courses</a>
+            </li>
+
+            <li class="nav_item">
+              <a href="teachers.html" class="nav_link">Teachers</a>
+            </li>
+
+            <li class="nav_item">
+              <a href="contact.html" class="nav_link">Contact</a>
+            </li>
+          </ul>
+
+          <div class="nav_close" id="nav-close">
+            <i class="uil uil-times"></i>
           </div>
-  
-          <div class="nav_toggle" id="nav-toggle">
-            <i class="uil uil-apps"></i>
-          </div>
-  
-          <a href="#" class="button button_header">Sign up</a>
-        </nav>
-      </header>
+        </div>
+
+        <div class="nav_toggle" id="nav-toggle">
+          <i class="uil uil-apps"></i>
+        </div>
+
+        <a href="#" class="button button_header">Sign up</a>
+      </nav>
+    </header>
 
     <!--=============== MAIN ===============-->
     <main class="main">
-        <!--=============== PAGE TITLE ===============-->
-        <section class="page_title-area">
-            <div class="page_title-wrapper container">
-                <h1 class="page_title">Courses</h1>
+      <!--=============== PAGE TITLE ===============-->
+      <section class="page_title-area">
+        <div class="page_title-wrapper container">
+          <h1 class="page_title">Courses</h1>
 
-                <nav class="breadcrumb">
-                    <ul class="breadcrumb_list">
-                        <li class="breadcrumb_item">
-                            <a href="index.html" class="breadcrumb_link">Home</a>
-                        </li>
+          <nav class="breadcrumb">
+            <ul class="breadcrumb_list">
+              <li class="breadcrumb_item">
+                <a href="index.html" class="breadcrumb_link">Home</a>
+              </li>
 
-                        <li class="breadcrumb_item">
-                            <span class="breadcrumb_link">.</span>
-                        </li>
+              <li class="breadcrumb_item">
+                <span class="breadcrumb_link">.</span>
+              </li>
 
-                        <li class="breadcrumb_item">
-                            <span class="breadcrumb_link">Courses</span>
-                        </li>
-                    </ul>
-                </nav>
+              <li class="breadcrumb_item">
+                <span class="breadcrumb_link">Courses</span>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </section>
+
+      <!--=============== COURSES ===============-->
+      <section class="courses section container">
+        <div class="courses_container grid">
+          <div class="course_item">
+            <div class="course_box">
+              <img src="assets/Img/course-1.jpg" alt="" class="course_img" />
+              <div class="course_tag">Art & Design</div>
             </div>
-        </section>
+            <div class="course_content">
+              <div class="course_meta">
+                <div class="course_lesson">
+                  <i class="uil uil-book-alt"></i> 43 Lesson
+                </div>
 
-        <!--=============== COURSES ===============-->
-        <section class="courses section container">
-            <div class="courses_container grid">
-                <div class="course_item">
-                  <div class="course_box">
-                    <img src="assets/Img/course-1.jpg" alt="" class="course_img" />
-                    <div class="course_tag">Art & Design</div>
-                  </div>
-                  <div class="course_content">
-                    <div class="course_meta">
-                      <div class="course_lesson">
-                        <i class="uil uil-book-alt"></i> 43 Lesson
-                      </div>
-      
-                      <div class="course_rating">
-                        <i class="uis uis-star"></i> 4.5 (44)
-                      </div>
-                    </div>
-                    <h3 class="course_title">
-                      Become a product Manager learn the skills & job.
-                    </h3>
-                    <div class="course_teacher">
-                      <img
-                        src="assets/Img/course-teacher-1.jpg"
-                        alt=""
-                        class="course_teacher-img"
-                      />
-                      <h3 class="course_teacher-title">Jim Séchen</h3>
-                    </div>
-                  </div>
-      
-                  <div class="course_more">
-                    <div class="course_prices">
-                      <span class="course_discount">$32.00</span>
-                      <span class="course_price">$68.00</span>
-                    </div>
-      
-                    <span class="course_button">
-                      Know Details
-                      <i class="uil uil-arrow-right course_button-icon"></i>
-                    </span>
-                  </div>
-                </div>
-      
-                <div class="course_item">
-                  <div class="course_box">
-                    <img src="assets/Img/course-2.jpg" alt="" class="course_img" />
-                    <div class="course_tag">Mechanical</div>
-                  </div>
-                  <div class="course_content">
-                    <div class="course_meta">
-                      <div class="course_lesson">
-                        <i class="uil uil-book-alt"></i> 72 Lesson
-                      </div>
-      
-                      <div class="course_rating">
-                        <i class="uis uis-star"></i> 4.5 (44)
-                      </div>
-                    </div>
-                    <h3 class="course_title">
-                      Fundamentals of music theory Learn new
-                    </h3>
-                    <div class="course_teacher">
-                      <img
-                        src="assets/Img/course-teacher-2.jpg"
-                        alt=""
-                        class="course_teacher-img"
-                      />
-                      <h3 class="course_teacher-title">Barry Tone</h3>
-                    </div>
-                  </div>
-      
-                  <div class="course_more">
-                    <div class="course_prices">
-                      <span class="course_discount">$46.00</span>
-                      <span class="course_price">$68.00</span>
-                    </div>
-      
-                    <span class="course_button">
-                      Know Details
-                      <i class="uil uil-arrow-right course_button-icon"></i>
-                    </span>
-                  </div>
-                </div>
-      
-                <div class="course_item">
-                  <div class="course_box">
-                    <img src="assets/Img/course-3.jpg" alt="" class="course_img" />
-                    <div class="course_tag">Development</div>
-                  </div>
-                  <div class="course_content">
-                    <div class="course_meta">
-                      <div class="course_lesson">
-                        <i class="uil uil-book-alt"></i> 43 Lesson
-                      </div>
-      
-                      <div class="course_rating">
-                        <i class="uis uis-star"></i> 4.4 (40)
-                      </div>
-                    </div>
-                    <h3 class="course_title">
-                      Bases Matemáticas dios Álgebra Ecuacion
-                    </h3>
-                    <div class="course_teacher">
-                      <img
-                        src="assets/Img/course-teacher-3.jpg"
-                        alt=""
-                        class="course_teacher-img"
-                      />
-                      <h3 class="course_teacher-title">Samuel Serif</h3>
-                    </div>
-                  </div>
-      
-                  <div class="course_more">
-                    <div class="course_prices">
-                      <span class="course_discount">$46.00</span>
-                      <span class="course_price">$68.00</span>
-                    </div>
-      
-                    <span class="course_button">
-                      Know Details
-                      <i class="uil uil-arrow-right course_button-icon"></i>
-                    </span>
-                  </div>
-                </div>
-      
-                <div class="course_item">
-                  <div class="course_box">
-                    <img src="assets/Img/course-4.jpg" alt="" class="course_img" />
-                    <div class="course_tag">Development</div>
-                  </div>
-                  <div class="course_content">
-                    <div class="course_meta">
-                      <div class="course_lesson">
-                        <i class="uil uil-book-alt"></i> 14 Lesson
-                      </div>
-      
-                      <div class="course_rating">
-                        <i class="uis uis-star"></i> 3.5 (55)
-                      </div>
-                    </div>
-                    <h3 class="course_title">
-                      Strategy law and organization Foundation
-                    </h3>
-                    <div class="course_teacher">
-                      <img
-                        src="assets/Img/course-teacher-4.jpg"
-                        alt=""
-                        class="course_teacher-img"
-                      />
-                      <h3 class="course_teacher-title">Elon Gated</h3>
-                    </div>
-                  </div>
-      
-                  <div class="course_more">
-                    <div class="course_prices">
-                      <span class="course_discount">$62.00</span>
-                      <span class="course_price">$97.00</span>
-                    </div>
-      
-                    <span class="course_button">
-                      Know Details
-                      <i class="uil uil-arrow-right course_button-icon"></i>
-                    </span>
-                  </div>
-                </div>
-      
-                <div class="course_item">
-                  <div class="course_box">
-                    <img src="assets/Img/course-5.jpg" alt="" class="course_img" />
-                    <div class="course_tag">Marketing</div>
-                  </div>
-                  <div class="course_content">
-                    <div class="course_meta">
-                      <div class="course_lesson">
-                        <i class="uil uil-book-alt"></i> 22 Lesson
-                      </div>
-      
-                      <div class="course_rating">
-                        <i class="uis uis-star"></i> 4.5 (42)
-                      </div>
-                    </div>
-                    <h3 class="course_title">
-                      The business Intelligence analyst Course 2022
-                    </h3>
-                    <div class="course_teacher">
-                      <img
-                        src="assets/Img/course-teacher-5.jpg"
-                        alt=""
-                        class="course_teacher-img"
-                      />
-                      <h3 class="course_teacher-title">Eleanor Fant</h3>
-                    </div>
-                  </div>
-      
-                  <div class="course_more">
-                    <div class="course_prices">
-                      <span class="course_discount">$62.00</span>
-                      <span class="course_price">$97.00</span>
-                    </div>
-      
-                    <span class="course_button">
-                      Know Details
-                      <i class="uil uil-arrow-right course_button-icon"></i>
-                    </span>
-                  </div>
-                </div>
-      
-                <div class="course_item">
-                  <div class="course_box">
-                    <img src="assets/Img/course-6.jpg" alt="" class="course_img" />
-                    <div class="course_tag">Marketing</div>
-                  </div>
-                  <div class="course_content">
-                    <div class="course_meta">
-                      <div class="course_lesson">
-                        <i class="uil uil-book-alt"></i> 22 Lesson
-                      </div>
-      
-                      <div class="course_rating">
-                        <i class="uis uis-star"></i> 4.5 (42)
-                      </div>
-                    </div>
-                    <h3 class="course_title">
-                      The business Intelligence analyst Course 2022
-                    </h3>
-                    <div class="course_teacher">
-                      <img
-                        src="assets/Img/course-teacher-6.jpg"
-                        alt=""
-                        class="course_teacher-img"
-                      />
-                      <h3 class="course_teacher-title">Brian Cumin</h3>
-                    </div>
-                  </div>
-      
-                  <div class="course_more">
-                    <div class="course_prices">
-                      <span class="course_discount">$62.00</span>
-                      <span class="course_price">$97.00</span>
-                    </div>
-      
-                    <span class="course_button">
-                      Know Details
-                      <i class="uil uil-arrow-right course_button-icon"></i>
-                    </span>
-                  </div>
+                <div class="course_rating">
+                  <i class="uis uis-star"></i> 4.5 (44)
                 </div>
               </div>
-        </section>
+              <h3 class="course_title">
+                Become a product Manager learn the skills & job.
+              </h3>
+              <div class="course_teacher">
+                <img
+                  src="assets/Img/course-teacher-1.jpg"
+                  alt=""
+                  class="course_teacher-img"
+                />
+                <h3 class="course_teacher-title">Jim Séchen</h3>
+              </div>
+            </div>
+
+            <div class="course_more">
+              <div class="course_prices">
+                <span class="course_discount">$32.00</span>
+                <span class="course_price">$68.00</span>
+              </div>
+
+              <span class="course_button">
+                Know Details
+                <i class="uil uil-arrow-right course_button-icon"></i>
+              </span>
+            </div>
+          </div>
+
+          <div class="course_item">
+            <div class="course_box">
+              <img src="assets/Img/course-2.jpg" alt="" class="course_img" />
+              <div class="course_tag">Mechanical</div>
+            </div>
+            <div class="course_content">
+              <div class="course_meta">
+                <div class="course_lesson">
+                  <i class="uil uil-book-alt"></i> 72 Lesson
+                </div>
+
+                <div class="course_rating">
+                  <i class="uis uis-star"></i> 4.5 (44)
+                </div>
+              </div>
+              <h3 class="course_title">
+                Fundamentals of music theory Learn new
+              </h3>
+              <div class="course_teacher">
+                <img
+                  src="assets/Img/course-teacher-2.jpg"
+                  alt=""
+                  class="course_teacher-img"
+                />
+                <h3 class="course_teacher-title">Barry Tone</h3>
+              </div>
+            </div>
+
+            <div class="course_more">
+              <div class="course_prices">
+                <span class="course_discount">$46.00</span>
+                <span class="course_price">$68.00</span>
+              </div>
+
+              <span class="course_button">
+                Know Details
+                <i class="uil uil-arrow-right course_button-icon"></i>
+              </span>
+            </div>
+          </div>
+
+          <div class="course_item">
+            <div class="course_box">
+              <img src="assets/Img/course-3.jpg" alt="" class="course_img" />
+              <div class="course_tag">Development</div>
+            </div>
+            <div class="course_content">
+              <div class="course_meta">
+                <div class="course_lesson">
+                  <i class="uil uil-book-alt"></i> 43 Lesson
+                </div>
+
+                <div class="course_rating">
+                  <i class="uis uis-star"></i> 4.4 (40)
+                </div>
+              </div>
+              <h3 class="course_title">
+                Bases Matemáticas dios Álgebra Ecuacion
+              </h3>
+              <div class="course_teacher">
+                <img
+                  src="assets/Img/course-teacher-3.jpg"
+                  alt=""
+                  class="course_teacher-img"
+                />
+                <h3 class="course_teacher-title">Samuel Serif</h3>
+              </div>
+            </div>
+
+            <div class="course_more">
+              <div class="course_prices">
+                <span class="course_discount">$46.00</span>
+                <span class="course_price">$68.00</span>
+              </div>
+
+              <span class="course_button">
+                Know Details
+                <i class="uil uil-arrow-right course_button-icon"></i>
+              </span>
+            </div>
+          </div>
+
+          <div class="course_item">
+            <div class="course_box">
+              <img src="assets/Img/course-4.jpg" alt="" class="course_img" />
+              <div class="course_tag">Development</div>
+            </div>
+            <div class="course_content">
+              <div class="course_meta">
+                <div class="course_lesson">
+                  <i class="uil uil-book-alt"></i> 14 Lesson
+                </div>
+
+                <div class="course_rating">
+                  <i class="uis uis-star"></i> 3.5 (55)
+                </div>
+              </div>
+              <h3 class="course_title">
+                Strategy law and organization Foundation
+              </h3>
+              <div class="course_teacher">
+                <img
+                  src="assets/Img/course-teacher-4.jpg"
+                  alt=""
+                  class="course_teacher-img"
+                />
+                <h3 class="course_teacher-title">Elon Gated</h3>
+              </div>
+            </div>
+
+            <div class="course_more">
+              <div class="course_prices">
+                <span class="course_discount">$62.00</span>
+                <span class="course_price">$97.00</span>
+              </div>
+
+              <span class="course_button">
+                Know Details
+                <i class="uil uil-arrow-right course_button-icon"></i>
+              </span>
+            </div>
+          </div>
+
+          <div class="course_item">
+            <div class="course_box">
+              <img src="assets/Img/course-5.jpg" alt="" class="course_img" />
+              <div class="course_tag">Marketing</div>
+            </div>
+            <div class="course_content">
+              <div class="course_meta">
+                <div class="course_lesson">
+                  <i class="uil uil-book-alt"></i> 22 Lesson
+                </div>
+
+                <div class="course_rating">
+                  <i class="uis uis-star"></i> 4.5 (42)
+                </div>
+              </div>
+              <h3 class="course_title">
+                The business Intelligence analyst Course 2022
+              </h3>
+              <div class="course_teacher">
+                <img
+                  src="assets/Img/course-teacher-5.jpg"
+                  alt=""
+                  class="course_teacher-img"
+                />
+                <h3 class="course_teacher-title">Eleanor Fant</h3>
+              </div>
+            </div>
+
+            <div class="course_more">
+              <div class="course_prices">
+                <span class="course_discount">$62.00</span>
+                <span class="course_price">$97.00</span>
+              </div>
+
+              <span class="course_button">
+                Know Details
+                <i class="uil uil-arrow-right course_button-icon"></i>
+              </span>
+            </div>
+          </div>
+
+          <div class="course_item">
+            <div class="course_box">
+              <img src="assets/Img/course-6.jpg" alt="" class="course_img" />
+              <div class="course_tag">Marketing</div>
+            </div>
+            <div class="course_content">
+              <div class="course_meta">
+                <div class="course_lesson">
+                  <i class="uil uil-book-alt"></i> 22 Lesson
+                </div>
+
+                <div class="course_rating">
+                  <i class="uis uis-star"></i> 4.5 (42)
+                </div>
+              </div>
+              <h3 class="course_title">
+                The business Intelligence analyst Course 2022
+              </h3>
+              <div class="course_teacher">
+                <img
+                  src="assets/Img/course-teacher-6.jpg"
+                  alt=""
+                  class="course_teacher-img"
+                />
+                <h3 class="course_teacher-title">Brian Cumin</h3>
+              </div>
+            </div>
+
+            <div class="course_more">
+              <div class="course_prices">
+                <span class="course_discount">$62.00</span>
+                <span class="course_price">$97.00</span>
+              </div>
+
+              <span class="course_button">
+                Know Details
+                <i class="uil uil-arrow-right course_button-icon"></i>
+              </span>
+            </div>
+          </div>
+
+          <div class="course_item">
+            <div class="course_box">
+              <img src="assets/Img/course-7.jpg" alt="" class="course_img" />
+              <div class="course_tag">Audio & Music</div>
+            </div>
+            <div class="course_content">
+              <div class="course_meta">
+                <div class="course_lesson">
+                  <i class="uil uil-book-alt"></i> 18 Lesson
+                </div>
+
+                <div class="course_rating">
+                  <i class="uis uis-star"></i> 4.5(37)
+                </div>
+              </div>
+              <h3 class="course_title">Build your media and Public presence</h3>
+              <div class="course_teacher">
+                <img
+                  src="assets/Img/course-teacher-7.jpg"
+                  alt=""
+                  class="course_teacher-img"
+                />
+                <h3 class="course_teacher-title">Pelican Steve</h3>
+              </div>
+            </div>
+
+            <div class="course_more">
+              <div class="course_prices">
+                <span class="course_discount">$62.00</span>
+                <span class="course_price">$97.00</span>
+              </div>
+
+              <span class="course_button">
+                Know Details
+                <i class="uil uil-arrow-right course_button-icon"></i>
+              </span>
+            </div>
+          </div>
+
+          <div class="course_item">
+            <div class="course_box">
+              <img src="assets/Img/course-8.jpg" alt="" class="course_img" />
+              <div class="course_tag">UX Design</div>
+            </div>
+            <div class="course_content">
+              <div class="course_meta">
+                <div class="course_lesson">
+                  <i class="uil uil-book-alt"></i> 13 Lesson
+                </div>
+
+                <div class="course_rating">
+                  <i class="uis uis-star"></i> 4.5(72)
+                </div>
+              </div>
+              <h3 class="course_title">
+                Creative writing through Storytelling
+              </h3>
+              <div class="course_teacher">
+                <img
+                  src="assets/Img/course-teacher-8.jpg"
+                  alt=""
+                  class="course_teacher-img"
+                />
+                <h3 class="course_teacher-title">Shahnewaz Sakil</h3>
+              </div>
+            </div>
+
+            <div class="course_more">
+              <div class="course_prices">
+                <span class="course_discount">$46.00</span>
+                <span class="course_price">$72.00</span>
+              </div>
+
+              <span class="course_button">
+                Know Details
+                <i class="uil uil-arrow-right course_button-icon"></i>
+              </span>
+            </div>
+          </div>
+
+          <div class="course_item">
+            <div class="course_box">
+              <img src="assets/Img/course-9.jpg" alt="" class="course_img" />
+              <div class="course_tag">UX Design</div>
+            </div>
+            <div class="course_content">
+              <div class="course_meta">
+                <div class="course_lesson">
+                  <i class="uil uil-book-alt"></i> 25 Lesson
+                </div>
+
+                <div class="course_rating">
+                  <i class="uis uis-star"></i> 4.5(35)
+                </div>
+              </div>
+              <h3 class="course_title">
+                Creative writing through Storytelling
+              </h3>
+              <div class="course_teacher">
+                <img
+                  src="assets/Img/course-teacher-9.jpg"
+                  alt=""
+                  class="course_teacher-img"
+                />
+                <h3 class="course_teacher-title">Hilary Ouse</h3>
+              </div>
+            </div>
+
+            <div class="course_more">
+              <div class="course_prices">
+                <span class="course_discount">$46.00</span>
+                <span class="course_price">$72.00</span>
+              </div>
+
+              <span class="course_button">
+                Know Details
+                <i class="uil uil-arrow-right course_button-icon"></i>
+              </span>
+            </div>
+          </div>
+        </div>
+
+        <div class="pagination">
+            <span class="pagination_prev-button"><i class="uil uil-arrow-left pagination_button-icon"></i> Prev</span>
+            <span class="pagination_button">1</span>
+            <span class="pagination_button">2</span>
+            <span class="pagination_button">3</span>
+            <span class="pagination_next-button">Next <i class="uil uil-arrow-right pagination_button-icon"></i></span>
+        </div>
+      </section>
     </main>
 
     <!--=============== FOOTER ===============-->
     <footer class="footer section">
-        <div class="footer_container grid container">
-  
-          <div class="footer_content">
-            <img src="assets/Img/logo-light.png" alt="" class="footer_logo" />
-            <p class="footer_description">
-              Great lesson ideas and lesson <br />
-              plans for ESL teachers!.
-            </p>
-            <div class="footer_social">
-              <a href="https://www.facebook.com/" class="footer_social-link"
-                ><i class="uil uil-facebook-f"></i>
-              </a>
-              <a href="https://twitter.com/" class="footer_social-link">
-                <i class="uil uil-twitter"></i>
-              </a>
-              <a href="https://www.youtube.com/" class="footer_social-link">
-                <i class="uil uil-youtube"></i>
-              </a>
-            </div>
+      <div class="footer_container grid container">
+        <div class="footer_content">
+          <img src="assets/Img/logo-light.png" alt="" class="footer_logo" />
+          <p class="footer_description">
+            Great lesson ideas and lesson <br />
+            plans for ESL teachers!.
+          </p>
+          <div class="footer_social">
+            <a href="https://www.facebook.com/" class="footer_social-link"
+              ><i class="uil uil-facebook-f"></i>
+            </a>
+            <a href="https://twitter.com/" class="footer_social-link">
+              <i class="uil uil-twitter"></i>
+            </a>
+            <a href="https://www.youtube.com/" class="footer_social-link">
+              <i class="uil uil-youtube"></i>
+            </a>
           </div>
-  
-          <div class="footer_content">
-            <h3 class="footer_title">About</h3>
-  
-            <ul class="footer_links">
-              <li><a href="#" class="footer_link">About Us</a></li>
-              <li><a href="#" class="footer_link">Courses</a></li>
-              <li><a href="#" class="footer_link">Instuctors</a></li>
-            </ul>
-          </div>
-  
-          <div class="footer_content">
-            <h3 class="footer_title">Our Services</h3>
-  
-            <ul class="footer_links">
-              <li><a href="#" class="footer_link">Tutorials</a></li>
-              <li><a href="#" class="footer_link">Library</a></li>
-              <li><a href="#" class="footer_link">News & Blogs</a></li>
-            </ul>
-          </div>
-  
-          <div class="footer_content">
-            <h3 class="footer_title">Our Company</h3>
-  
-            <ul class="footer_links">
-              <li><a href="#" class="footer_link">Career</a></li>
-              <li><a href="#" class="footer_link">Contact Us</a></li>
-              <li><a href="#" class="footer_link">Courses</a></li>
-            </ul>
-          </div>
-  
         </div>
-  
-        <span class="footer_copy">&#169; Crypticalcoder. All rights reserved</span>
-        
-      </footer>
+
+        <div class="footer_content">
+          <h3 class="footer_title">About</h3>
+
+          <ul class="footer_links">
+            <li><a href="#" class="footer_link">About Us</a></li>
+            <li><a href="#" class="footer_link">Courses</a></li>
+            <li><a href="#" class="footer_link">Instuctors</a></li>
+          </ul>
+        </div>
+
+        <div class="footer_content">
+          <h3 class="footer_title">Our Services</h3>
+
+          <ul class="footer_links">
+            <li><a href="#" class="footer_link">Tutorials</a></li>
+            <li><a href="#" class="footer_link">Library</a></li>
+            <li><a href="#" class="footer_link">News & Blogs</a></li>
+          </ul>
+        </div>
+
+        <div class="footer_content">
+          <h3 class="footer_title">Our Company</h3>
+
+          <ul class="footer_links">
+            <li><a href="#" class="footer_link">Career</a></li>
+            <li><a href="#" class="footer_link">Contact Us</a></li>
+            <li><a href="#" class="footer_link">Courses</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <span class="footer_copy"
+        >&#169; Crypticalcoder. All rights reserved</span
+      >
+    </footer>
 
     <!--=============== JS ===============-->
     <script src="assets/Js/main.js"></script>
-</body>
+  </body>
 </html>

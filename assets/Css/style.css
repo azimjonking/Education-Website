@@ -152,7 +152,7 @@ img {
 .page_title {
   font-size: var(--biggest-font-size);
   color: #fff;
-  margin-bottom: .5rem;
+  margin-bottom: .25rem;
 }
 
 .breadcrumb_list {
@@ -749,26 +749,32 @@ img {
   color: #b128ff;
 }
 
+.course_item:nth-child(9) .course_tag,
 .course_item:nth-child(2) .course_tag {
   background-color: #fa7919;
 }
 
+.course_item:nth-child(9) .course_discount,
 .course_item:nth-child(2) .course_discount {
   color: #fa7919;
 }
 
+.course_item:nth-child(8) .course_tag,
 .course_item:nth-child(3) .course_tag {
   background-color: #30a820;
 }
 
+.course_item:nth-child(8) .course_discount,
 .course_item:nth-child(3) .course_discount {
   color: #30a820;
 }
 
+.course_item:nth-child(7) .course_tag,
 .course_item:nth-child(4) .course_tag {
   background-color: #5744cb;
 }
 
+.course_item:nth-child(7) .course_discount,
 .course_item:nth-child(4) .course_discount {
   color: #5744cb;
 }
@@ -790,6 +796,47 @@ img {
 }
 
 /*=============== COURSES PAGE ===============*/
+
+.pagination {
+  display: flex;
+  align-items: center;
+  column-gap: 1.25rem;
+  margin-top: 2.75rem;
+}
+
+.pagination_button {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  line-height: 38px;
+  text-align: center;
+  border-radius: .25rem;
+  font-weight: var(--font-medium);
+  border: 2px solid #eef0f6;
+  cursor: pointer;
+  color: var(--first-color);
+  transition: .4s;
+}
+
+.pagination_button:hover {
+  background-color: var(--first-color);
+  border-color: var(--first-color);
+  color: #fff;
+}
+
+.pagination_next-button,
+.pagination_prev-button {
+  color: var(--title-color);
+  font-size: var(--normal-font-size);
+  display: flex;
+  align-items: center;
+  column-gap: .25rem;
+  cursor: pointer;
+}
+
+.pagination_button-icon {
+  font-size: 1rem;
+}
 
 /*=============== COURSE DETAILS PAGE ===============*/
 
@@ -965,6 +1012,10 @@ img {
     padding: .5rem 1.25rem;
   }
 
+  .pagination {
+    justify-content: center;
+  }
+
 }
 
 /* For medium devices */
@@ -1053,6 +1104,16 @@ img {
 
   .footer_copy {
     margin-top: 4.5rem;
+  }
+
+  .pagination {
+    column-gap: .625rem;
+  }
+
+  .pagination_button {
+    width: 36px;
+    height: 36px;
+    line-height: 34px;
   }
 
 }
