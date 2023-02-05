@@ -1,257 +1,480 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <!--=============== UNICONS ===============-->
-    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
-    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/solid.css">
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.0/css/solid.css"
+    />
 
     <!--=============== CSS ===============-->
-    <link rel="stylesheet" href="assets/Css/style.css">
+    <link rel="stylesheet" href="assets/Css/style.css" />
 
     <title>Responsive Educational Website</title>
-</head>
-<body>
+  </head>
+  <body>
     <!--=============== HEADER ===============-->
     <header class="header" id="header">
-        <nav class="nav container">
-          <a href="index.html" class="nav_logo logo_light">
-            <img src="assets/Img/logo-light.png" alt="" />
-          </a>
-          <a href="index.html" class="nav_logo logo_dark">
-            <img src="assets/Img/logo-dark.png" alt="" />
-          </a>
-  
-          <div class="nav_menu" id="nav-menu">
-            <ul class="nav_list">
-              <li class="nav_item">
-                <a href="index.html" class="nav_link">Home</a>
-              </li>
-  
-              <li class="nav_item">
-                <a href="courses.html" class="nav_link">Courses</a>
-              </li>
-  
-              <li class="nav_item">
-                <a href="teachers.html" class="nav_link">Teachers</a>
-              </li>
-  
-              <li class="nav_item">
-                <a href="contact.html" class="nav_link">Contact</a>
-              </li>
-            </ul>
-  
-            <div class="nav_close" id="nav-close">
-              <i class="uil uil-times"></i>
-            </div>
+      <nav class="nav container">
+        <a href="index.html" class="nav_logo logo_light">
+          <img src="assets/Img/logo-light.png" alt="" />
+        </a>
+        <a href="index.html" class="nav_logo logo_dark">
+          <img src="assets/Img/logo-dark.png" alt="" />
+        </a>
+
+        <div class="nav_menu" id="nav-menu">
+          <ul class="nav_list">
+            <li class="nav_item">
+              <a href="index.html" class="nav_link">Home</a>
+            </li>
+
+            <li class="nav_item">
+              <a href="courses.html" class="nav_link">Courses</a>
+            </li>
+
+            <li class="nav_item">
+              <a href="teachers.html" class="nav_link">Teachers</a>
+            </li>
+
+            <li class="nav_item">
+              <a href="contact.html" class="nav_link">Contact</a>
+            </li>
+          </ul>
+
+          <div class="nav_close" id="nav-close">
+            <i class="uil uil-times"></i>
           </div>
-  
-          <div class="nav_toggle" id="nav-toggle">
-            <i class="uil uil-apps"></i>
-          </div>
-  
-          <a href="#" class="button button_header">Sign up</a>
-        </nav>
-      </header>
+        </div>
+
+        <div class="nav_toggle" id="nav-toggle">
+          <i class="uil uil-apps"></i>
+        </div>
+
+        <a href="#" class="button button_header">Sign up</a>
+      </nav>
+    </header>
 
     <!--=============== MAIN ===============-->
     <main class="main">
-        <!--=============== PAGE TITLE ===============-->
-        <section class="page_title-area">
-            <div class="page_title-wrapper container">
-              <h1 class="page_title">Courses</h1>
-    
-              <nav class="breadcrumb">
-                <ul class="breadcrumb_list">
-                  <li class="breadcrumb_item">
-                    <a href="index.html" class="breadcrumb_link">Home</a>
-                  </li>
-    
-                  <li class="breadcrumb_item">
-                    <span class="breadcrumb_link">.</span>
-                  </li>
-    
-                  <li class="breadcrumb_item">
-                    <span class="breadcrumb_link">Courses</span>
-                  </li>
+      <!--=============== PAGE TITLE ===============-->
+      <section class="page_title-area">
+        <div class="page_title-wrapper container">
+          <h1 class="page_title">Courses</h1>
 
-                  <li class="breadcrumb_item">
-                    <span class="breadcrumb_link">.</span>
-                  </li>
-    
-                  <li class="breadcrumb_item">
-                    <span class="breadcrumb_link">Details</span>
-                  </li>
+          <nav class="breadcrumb">
+            <ul class="breadcrumb_list">
+              <li class="breadcrumb_item">
+                <a href="index.html" class="breadcrumb_link">Home</a>
+              </li>
 
-                </ul>
-              </nav>
-            </div>
-          </section>
+              <li class="breadcrumb_item">
+                <span class="breadcrumb_link">.</span>
+              </li>
 
-        <!--=============== COURSE DETAILS ===============-->
-        <section class="course_details section">
-            <div class="details_container grid container">
-                <div class="details_group">
-                    <div class="details_tag">Development</div>
-                    <h3 class="details_title">The business Intelligence analyst Course 2022</h3>
-                    <div class="details_meta">
-                        <div class="details_teacher">
-                            <img src="assets/Img/course-teacher-9.jpg" alt="" class="details_teacher-img">
+              <li class="breadcrumb_item">
+                <span class="breadcrumb_link">Courses</span>
+              </li>
 
-                            <div class="details_data">
-                                <span class="details_subtitle">Teacher</span>
-                                <h3 class="details_data-title">Elon Gated</h3>
-                            </div>
-                        </div>
-                        <div class="details_update">
-                            <span class="details_subtitle">Last Update:</span>
-                            <h3 class="details_data-title">April 24, 2022</h3>
-                        </div>
-                        <div class="details_rating">
-                            <span class="details_subtitle">Review:</span>
-                            <h3 class="details_data-title">
-                                <i class="uis uis-star"></i>
-                                <i class="uis uis-star"></i>
-                                <i class="uis uis-star"></i>
-                                <i class="uis uis-star"></i>
-                                <i class="uis uis-star"></i>
-                                <span class="review">4.5</span>
-                            </h3>
-                        </div>
-                    </div>
-                    <img src="assets/Img/course-1.jpg" alt="" class="details_img">
-                    <div class="course_description">
-                        <h3 class="course_description-title">Course Overview</h3>
-                        <p class="course_description-details">Only a quid me old mucker squiffy tomfoolery grub cheers ruddy cor blimey guvnor in my flat, up the duff Eaton car boot up the kyver pardon you A bit of how's your father David skive off sloshed, don't get shirty with me chip shop vagabond crikey bugger Queen's English chap. Matie boy nancy boy bite your arm off up the kyver old no biggie fantastic boot, David have it show off show off pick your nose and blow off lost the plot porkies bits and bobs only a quid bugger all mate, absolutely bladdered bamboozled it's your round don't get shirty with me down the pub well.</p>
-                        <div class="description_list">
-                            <h3 class="description_list-title">What is the Target Audience?</h3>
-                            <div class="description_list-details">
-                                <p class="description_list-data">
-                                    <i class="uil uil-check details_icon"></i>
-                                    Upskill your organization.
-                                </p>
-                                <p class="description_list-data">
-                                    <i class="uil uil-check details_icon"></i>
-                                    Access more then 100K online courses
-                                </p>
-                                <p class="description_list-data">
-                                    <i class="uil uil-check details_icon"></i>
-                                    Learn the latest skills
-                                </p>
-                            </div>
-                        </div>
-                        <h3 class="course_description">Other INstructors</h3>
-                        <div class="intructors">
-                            <div class="intructors_group">
+              <li class="breadcrumb_item">
+                <span class="breadcrumb_link">.</span>
+              </li>
 
-                                <img src="assets/Img/student-2.jpg" alt="">
-                                <div class="instructor_data">
-                                    <h3 class="instructor_title">Eleanor Fant</h3>
-                                    <p class="instructor_subtitle">Instructor</p>
-                                </div>
-                            </div>
+              <li class="breadcrumb_item">
+                <span class="breadcrumb_link">Details</span>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </section>
 
-                            <div class="intructors_group">
-                                <img src="assets/Img/student-3.jpg" alt="">
-                                <div class="instructor_data">
-                                    <h3 class="instructor_title">Lauren Stamps</h3>
-                                    <p class="instructor_subtitle">Teacher</p>
-                                </div>
-                            </div>
+      <!--=============== COURSE DETAILS ===============-->
+      <section class="course_details section">
+        <div class="details_container grid container">
+          <div class="details_group">
+            <div class="details_tag">Development</div>
+            <h3 class="details_title">
+              The business Intelligence analyst Course 2022
+            </h3>
+            <div class="details_meta">
+              <div class="details_teacher">
+                <img
+                  src="assets/Img/course-teacher-9.jpg"
+                  alt=""
+                  class="details_teacher-img"
+                />
 
-                            <div class="intructors_group">
-                                <img src="assets/Img/student-4.jpg" alt="">
-                                <div class="instructor_data">
-                                    <h3 class="instructor_title">Jonquil Von</h3>
-                                    <p class="instructor_subtitle">Associate</p>
-                                </div>
-                            </div>
-
-                        </div>
-                        <div class="course_share">
-                            <h3 class="share_title">Share :</h3>
-
-                            <div class="course_social">
-                                <a href="https://www.facebook.com/" class="course_social-link"
-                                  ><i class="uil uil-facebook-f"></i>
-                                </a>
-                                <a href="https://twitter.com/" class="course_social-link">
-                                  <i class="uil uil-twitter"></i>
-                                </a>
-                                <a href="https://www.youtube.com/" class="course_social-link">
-                                  <i class="uil uil-youtube"></i>
-                                </a>
-                              </div>
-                        </div>
-                    </div>
+                <div class="details_data">
+                  <span class="details_subtitle">Teacher</span>
+                  <h3 class="details_data-title">Elon Gated</h3>
                 </div>
-                <div class="course_video"></div>
+              </div>
+              <div class="details_update">
+                <span class="details_subtitle">Last Update:</span>
+                <h3 class="details_data-title">April 24, 2022</h3>
+              </div>
+              <div class="details_rating">
+                <span class="details_subtitle">Review:</span>
+                <h3 class="details_data-title">
+                  <i class="uis uis-star"></i>
+                  <i class="uis uis-star"></i>
+                  <i class="uis uis-star"></i>
+                  <i class="uis uis-star"></i>
+                  <i class="uis uis-star"></i>
+                  <span class="review">4.5</span>
+                </h3>
+              </div>
             </div>
-        </section>
+            <img src="assets/Img/course-1.jpg" alt="" class="details_img" />
+            <div class="course_description">
+              <h3 class="course_description-title">Course Overview</h3>
+              <p class="course_description-details">
+                Only a quid me old mucker squiffy tomfoolery grub cheers ruddy
+                cor blimey guvnor in my flat, up the duff Eaton car boot up the
+                kyver pardon you A bit of how's your father David skive off
+                sloshed, don't get shirty with me chip shop vagabond crikey
+                bugger Queen's English chap. Matie boy nancy boy bite your arm
+                off up the kyver old no biggie fantastic boot, David have it
+                show off show off pick your nose and blow off lost the plot
+                porkies bits and bobs only a quid bugger all mate, absolutely
+                bladdered bamboozled it's your round don't get shirty with me
+                down the pub well.
+              </p>
+              <div class="description_list">
+                <h3 class="description_list-title">
+                  What is the Target Audience?
+                </h3>
+                <div class="description_list-details">
+                  <p class="description_list-data">
+                    <i class="uil uil-check details_icon"></i>
+                    Upskill your organization.
+                  </p>
+                  <p class="description_list-data">
+                    <i class="uil uil-check details_icon"></i>
+                    Access more then 100K online courses
+                  </p>
+                  <p class="description_list-data">
+                    <i class="uil uil-check details_icon"></i>
+                    Learn the latest skills
+                  </p>
+                </div>
+              </div>
+              <h3 class="course_description-title">Other Instructors</h3>
+              <div class="instructors">
+                <div class="instructors_group">
+                  <img
+                    src="assets/Img/student-2.jpg"
+                    alt=""
+                    class="instructor_img"
+                  />
+                  <div class="instructor_data">
+                    <h3 class="instructor_title">Eleanor Fant</h3>
+                    <p class="instructor_subtitle">Instructor</p>
+                  </div>
+                </div>
+
+                <div class="instructors_group">
+                  <img
+                    src="assets/Img/student-3.jpg"
+                    alt=""
+                    class="instructor_img"
+                  />
+                  <div class="instructor_data">
+                    <h3 class="instructor_title">Lauren Stamps</h3>
+                    <p class="instructor_subtitle">Teacher</p>
+                  </div>
+                </div>
+
+                <div class="instructors_group">
+                  <img
+                    src="assets/Img/student-4.jpg"
+                    alt=""
+                    class="instructor_img"
+                  />
+                  <div class="instructor_data">
+                    <h3 class="instructor_title">Jonquil Von</h3>
+                    <p class="instructor_subtitle">Associate</p>
+                  </div>
+                </div>
+              </div>
+              <div class="course_share">
+                <h3 class="share_title">Share :</h3>
+
+                <div class="course_social">
+                  <a href="https://www.facebook.com/" class="course_social-link"
+                    ><i class="uil uil-facebook-f"></i>
+                  </a>
+                  <a href="https://twitter.com/" class="course_social-link">
+                    <i class="uil uil-twitter"></i>
+                  </a>
+                  <a href="https://www.youtube.com/" class="course_social-link">
+                    <i class="uil uil-youtube"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="course_video">
+            <img
+              src="assets/Img/course-video.jpg"
+              alt=""
+              class="course_video-thumb"
+            />
+            <div class="course_video-meta">
+              <div class="course_video-prices">
+                <span class="new_price">$46.00</span>
+                <span class="old_price">$74.00</span>
+              </div>
+              <div class="course_video-discount">68% OFF</div>
+            </div>
+            <div class="course_video-content">
+              <div class="course_video-group">
+                <i class="uil uil-estate course-video-icon"></i>
+                <h3 class="course_video-info">
+                  <span>Instructur :</span> Eleanor Fant
+                </h3>
+              </div>
+
+              <div class="course_video-group">
+                <i class="uil uil-book-alt course-video-icon"></i>
+                <h3 class="course_video-info"><span>Lectures :</span> 14</h3>
+              </div>
+
+              <div class="course_video-group">
+                <i class="uil uil-clock course-video-icon"></i>
+                <h3 class="course_video-info">
+                  <span>Duration :</span> 6 weeks
+                </h3>
+              </div>
+
+              <div class="course_video-group">
+                <i class="uil uil-user course-video-icon"></i>
+                <h3 class="course_video-info">
+                  <span>Enrolled :</span> 20 students
+                </h3>
+              </div>
+
+              <div class="course_video-group">
+                <i class="uil uil-globe course-video-icon"></i>
+                <h3 class="course_video-info">
+                  <span>Language :</span> English
+                </h3>
+              </div>
+            </div>
+            <div class="course_payment">
+              <h3 class="course_payment-title">Payment :</h3>
+              <img
+                src="assets/Img/payment-1.png"
+                alt=""
+                class="course_payment-img"
+              />
+            </div>
+            <span class="course_enroll-button">
+              View all partners
+              <i class="uil uil-arrow-right enroll_button-icon"></i>
+            </span>
+          </div>
+        </div>
+      </section>
+
+      <!--=============== COURSES ===============-->
+      <section class="courses section container" id="courses">
+        <h2 class="section_title recommended_courses">Recommended Courses</h2>
+
+        <div class="courses_container grid">
+          <div class="course_item">
+            <div class="course_box">
+              <img src="assets/Img/course-1.jpg" alt="" class="course_img" />
+              <div class="course_tag">Art & Design</div>
+            </div>
+            <div class="course_content">
+              <div class="course_meta">
+                <div class="course_lesson">
+                  <i class="uil uil-book-alt"></i> 43 Lesson
+                </div>
+
+                <div class="course_rating">
+                  <i class="uis uis-star"></i> 4.5 (44)
+                </div>
+              </div>
+              <h3 class="course_title">
+                Become a product Manager learn the skills & job.
+              </h3>
+              <div class="course_teacher">
+                <img
+                  src="assets/Img/course-teacher-1.jpg"
+                  alt=""
+                  class="course_teacher-img"
+                />
+                <h3 class="course_teacher-title">Jim Séchen</h3>
+              </div>
+            </div>
+
+            <div class="course_more">
+              <div class="course_prices">
+                <span class="course_discount">$32.00</span>
+                <span class="course_price">$68.00</span>
+              </div>
+
+              <span class="course_button">
+                Know Details
+                <i class="uil uil-arrow-right course_button-icon"></i>
+              </span>
+            </div>
+          </div>
+
+          <div class="course_item">
+            <div class="course_box">
+              <img src="assets/Img/course-2.jpg" alt="" class="course_img" />
+              <div class="course_tag">Mechanical</div>
+            </div>
+            <div class="course_content">
+              <div class="course_meta">
+                <div class="course_lesson">
+                  <i class="uil uil-book-alt"></i> 72 Lesson
+                </div>
+
+                <div class="course_rating">
+                  <i class="uis uis-star"></i> 4.5 (44)
+                </div>
+              </div>
+              <h3 class="course_title">
+                Fundamentals of music theory Learn new
+              </h3>
+              <div class="course_teacher">
+                <img
+                  src="assets/Img/course-teacher-2.jpg"
+                  alt=""
+                  class="course_teacher-img"
+                />
+                <h3 class="course_teacher-title">Barry Tone</h3>
+              </div>
+            </div>
+
+            <div class="course_more">
+              <div class="course_prices">
+                <span class="course_discount">$46.00</span>
+                <span class="course_price">$68.00</span>
+              </div>
+
+              <span class="course_button">
+                Know Details
+                <i class="uil uil-arrow-right course_button-icon"></i>
+              </span>
+            </div>
+          </div>
+
+          <div class="course_item">
+            <div class="course_box">
+              <img src="assets/Img/course-3.jpg" alt="" class="course_img" />
+              <div class="course_tag">Development</div>
+            </div>
+            <div class="course_content">
+              <div class="course_meta">
+                <div class="course_lesson">
+                  <i class="uil uil-book-alt"></i> 43 Lesson
+                </div>
+
+                <div class="course_rating">
+                  <i class="uis uis-star"></i> 4.4 (40)
+                </div>
+              </div>
+              <h3 class="course_title">
+                Bases Matemáticas dios Álgebra Ecuacion
+              </h3>
+              <div class="course_teacher">
+                <img
+                  src="assets/Img/course-teacher-3.jpg"
+                  alt=""
+                  class="course_teacher-img"
+                />
+                <h3 class="course_teacher-title">Samuel Serif</h3>
+              </div>
+            </div>
+
+            <div class="course_more">
+              <div class="course_prices">
+                <span class="course_discount">$46.00</span>
+                <span class="course_price">$68.00</span>
+              </div>
+
+              <span class="course_button">
+                Know Details
+                <i class="uil uil-arrow-right course_button-icon"></i>
+              </span>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
 
     <!--=============== FOOTER ===============-->
     <footer class="footer section">
-        <div class="footer_container grid container">
-          <div class="footer_content">
-            <img src="assets/Img/logo-light.png" alt="" class="footer_logo" />
-            <p class="footer_description">
-              Great lesson ideas and lesson <br />
-              plans for ESL teachers!.
-            </p>
-            <div class="footer_social">
-              <a href="https://www.facebook.com/" class="footer_social-link"
-                ><i class="uil uil-facebook-f"></i>
-              </a>
-              <a href="https://twitter.com/" class="footer_social-link">
-                <i class="uil uil-twitter"></i>
-              </a>
-              <a href="https://www.youtube.com/" class="footer_social-link">
-                <i class="uil uil-youtube"></i>
-              </a>
-            </div>
-          </div>
-  
-          <div class="footer_content">
-            <h3 class="footer_title">About</h3>
-  
-            <ul class="footer_links">
-              <li><a href="#" class="footer_link">About Us</a></li>
-              <li><a href="#" class="footer_link">Courses</a></li>
-              <li><a href="#" class="footer_link">Instuctors</a></li>
-            </ul>
-          </div>
-  
-          <div class="footer_content">
-            <h3 class="footer_title">Our Services</h3>
-  
-            <ul class="footer_links">
-              <li><a href="#" class="footer_link">Tutorials</a></li>
-              <li><a href="#" class="footer_link">Library</a></li>
-              <li><a href="#" class="footer_link">News & Blogs</a></li>
-            </ul>
-          </div>
-  
-          <div class="footer_content">
-            <h3 class="footer_title">Our Company</h3>
-  
-            <ul class="footer_links">
-              <li><a href="#" class="footer_link">Career</a></li>
-              <li><a href="#" class="footer_link">Contact Us</a></li>
-              <li><a href="#" class="footer_link">Courses</a></li>
-            </ul>
+      <div class="footer_container grid container">
+        <div class="footer_content">
+          <img src="assets/Img/logo-light.png" alt="" class="footer_logo" />
+          <p class="footer_description">
+            Great lesson ideas and lesson <br />
+            plans for ESL teachers!.
+          </p>
+          <div class="footer_social">
+            <a href="https://www.facebook.com/" class="footer_social-link"
+              ><i class="uil uil-facebook-f"></i>
+            </a>
+            <a href="https://twitter.com/" class="footer_social-link">
+              <i class="uil uil-twitter"></i>
+            </a>
+            <a href="https://www.youtube.com/" class="footer_social-link">
+              <i class="uil uil-youtube"></i>
+            </a>
           </div>
         </div>
-  
-        <span class="footer_copy"
-          >&#169; Crypticalcoder. All rights reserved</span
-        >
-      </footer>
+
+        <div class="footer_content">
+          <h3 class="footer_title">About</h3>
+
+          <ul class="footer_links">
+            <li><a href="#" class="footer_link">About Us</a></li>
+            <li><a href="#" class="footer_link">Courses</a></li>
+            <li><a href="#" class="footer_link">Instuctors</a></li>
+          </ul>
+        </div>
+
+        <div class="footer_content">
+          <h3 class="footer_title">Our Services</h3>
+
+          <ul class="footer_links">
+            <li><a href="#" class="footer_link">Tutorials</a></li>
+            <li><a href="#" class="footer_link">Library</a></li>
+            <li><a href="#" class="footer_link">News & Blogs</a></li>
+          </ul>
+        </div>
+
+        <div class="footer_content">
+          <h3 class="footer_title">Our Company</h3>
+
+          <ul class="footer_links">
+            <li><a href="#" class="footer_link">Career</a></li>
+            <li><a href="#" class="footer_link">Contact Us</a></li>
+            <li><a href="#" class="footer_link">Courses</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <span class="footer_copy"
+        >&#169; Crypticalcoder. All rights reserved</span
+      >
+    </footer>
 
     <!--=============== JS ===============-->
     <script src="assets/Js/main.js"></script>
-</body>
+  </body>
 </html>
