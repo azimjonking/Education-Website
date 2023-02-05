@@ -216,7 +216,7 @@ Only a quid me old mucker squiffy tomfoolery grub cheers ruddy cor blimey guvnor
 
 .description__list-title | .description__list-data
 Upskill your organization.
- Access more then 100K online courses
+Access more then 100K online courses
 Learn the latest skills
 
 .course__description-title | .instructor__title | .intructor__subtitle

@@ -840,6 +840,10 @@ img {
 
 /*=============== COURSE DETAILS PAGE ===============*/
 
+.details_container {
+  grid-template-columns: 8fr 4fr;
+}
+
 /*=============== CONTACT PAGE ===============*/
 
 /*=============== FOOTER ===============*/
