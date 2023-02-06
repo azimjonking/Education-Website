@@ -1128,6 +1128,10 @@ img {
 
 /*=============== CONTACT PAGE ===============*/
 
+.contact_container {
+  grid-template-columns: 8fr 4fr;
+}
+
 /*=============== FOOTER ===============*/
 
 .footer {
