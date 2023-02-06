@@ -1130,6 +1130,81 @@ img {
 
 .contact_container {
   grid-template-columns: 8fr 4fr;
+  column-gap: 6rem;
+}
+
+.contact_title {
+  text-align: left;
+}
+
+.contact_subtitle {
+  margin-bottom: 2.5rem;
+}
+
+.contact_info {
+  display: grid;
+  row-gap: 2.25rem;
+}
+
+.contact_item:not(:last-child) {
+  display: flex;
+  column-gap: 1.75rem;
+}
+
+.contact_item-title {
+  font-size: var(--h3-font-size);
+  margin-bottom: .25rem;
+}
+
+.contact_item-subtitle {
+  display: block;
+}
+
+.contact_icon {
+  font-size: 1.5rem;
+  color: var(--first-color);
+}
+
+.contact_item:last-child {
+  padding-left: 3.25rem;
+}
+
+.contact_social-title {
+  margin-bottom: .75rem;
+}
+
+.contact_form-group {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 1.8rem;
+}
+
+.contact_form-div {
+  position: relative;
+  margin-bottom: 2rem;
+  height: 4rem;
+}
+
+.contact_form-input {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: var(--container-color);
+  color: var(--text-color);
+  border-radius: .25rem;
+  padding: 1.5rem;
+}
+
+.contact_form-area {
+  height: 11rem;
+}
+
+.contact_form-area textarea {
+  resize: none;
+  outline: none;
+  border: none;
 }
 
 /*=============== FOOTER ===============*/
@@ -1316,6 +1391,14 @@ img {
     width: 100%;
   }
 
+  .contact_container {
+    column-gap: 3rem;
+  }
+
+  .contact_form-group {
+    grid-template-columns: 1fr;
+  }
+
 }
 
 /* For medium devices */
@@ -1414,6 +1497,15 @@ img {
     width: 36px;
     height: 36px;
     line-height: 34px;
+  }
+
+  .contact_container {
+    grid-template-columns: 1fr;
+    row-gap: 3rem;
+  }
+
+  .contact_group {
+    order: -1;
   }
 
 }
