@@ -865,7 +865,9 @@ img {
 
 .details_meta {
   display: flex;
+  flex-wrap: wrap;
   column-gap: 4.4rem;
+  row-gap: 1.5rem;
   margin-bottom: 3rem;
 }
 
@@ -934,6 +936,8 @@ img {
 
 .instructors {
   display: flex;
+  flex-wrap: wrap;
+  row-gap: 1.5rem;
   column-gap: 3.4rem;
   margin-bottom: 2.5rem;
 }
@@ -1298,6 +1302,16 @@ img {
     justify-content: center;
   }
 
+  .details_container {
+    grid-template-columns: .8fr;
+    justify-content: center;
+    row-gap: 3rem;
+  }
+
+  .course_video-thumb {
+    width: 100%;
+  }
+
 }
 
 /* For medium devices */
@@ -1427,6 +1441,14 @@ img {
     grid-template-columns: repeat(2, 1fr);
   }
 
+  .details_container {
+    grid-template-columns: 1fr;
+  }
+
+  .details_title {
+    font-size: var(--h1-font-size);
+  }
+
 }
 
 /* For small devices */
@@ -1464,6 +1486,10 @@ img {
   .courses_container,
   .teachers_container {
     grid-template-columns: 1fr;
+  }
+
+  .course_video {
+    padding: 1.5rem;
   }
 
 }
